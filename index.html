@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>10 Reasons I Love You</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <!-- Starry night background canvas -->
+    <canvas id="starCanvas"></canvas>
+
+    <!-- Floating hearts canvas -->
+    <canvas id="heartCanvas"></canvas>
+
+    <h1 id="mainTitle">10 Reasons I Love You ❤️</h1>
+
+    <div class="heart-container">
+        <button class="heart" onclick="showReason(1)">❤️</button>
+        <button class="heart" onclick="showReason(2)">❤️</button>
+        <button class="heart" onclick="showReason(3)">❤️</button>
+        <button class="heart" onclick="showReason(4)">❤️</button>
+        <button class="heart" onclick="showReason(5)">❤️</button>
+        <button class="heart" onclick="showReason(6)">❤️</button>
+        <button class="heart" onclick="showReason(7)">❤️</button>
+        <button class="heart" onclick="showReason(8)">❤️</button>
+        <button class="heart" onclick="showReason(9)">❤️</button>
+        <button class="heart" onclick="showReason(10)">❤️</button>
+    </div>
+
+    <div id="reasonBox">
+        <p id="reasonText"></p>
+        <img id="reasonImage" src="" alt="Love Photo" style="display:none;" />
+    </div>
+
+    <!-- Optional background music -->
+    <audio id="bgMusic" src="music/song.mp3" autoplay loop></audio>
+
+    <!-- Confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <!-- Your script -->
+    <script src="script.js"></script>
+</body>
+</html>
