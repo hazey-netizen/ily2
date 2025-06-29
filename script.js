@@ -19,16 +19,16 @@ const reasons = [
 ];
 
 const images = [
-    "images/photo1.gif",
-    "images/photo2.gif",
-    "images/photo3.gif",
-    "images/photo4.gif",
-    "images/photo5.gif",
-    "images/photo6.gif",
-    "images/photo7.gif",
-    "images/photo8.gif",
-    "images/photo9.gif",
-    "images/photo10.gif"
+    "photo1.gif",
+    "photo2.gif",
+    "photo3.gif",
+    "photo4.gif",
+    "photo5.gif",
+    "photo6.gif",
+    "photo7.gif",
+    "photo8.gif",
+    "photo9.gif",
+    "photo10.gif"
 ];
 
 let clickedHearts = new Set();
